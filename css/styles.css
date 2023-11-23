@@ -103,6 +103,7 @@ body {
 
 .nav-cont {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -172,7 +173,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
 }
 
 .gallery-cont {
@@ -190,13 +191,16 @@ body {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     border: none;
+    min-width: 169px;
+    height: 56px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-.button-primary-text {
     padding: 16px 32px;
 }
+
+/* .button-primary-text {
+    padding: 16px 32px;
+} */
 
 .button-primary:hover,
 .button-primary:focus {
@@ -221,11 +225,13 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-/* .section-two-list-item { */
-/* width: calc(100% / 4 - 24px); */
-/* } */
+.section-two-list-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .list-text {
     font-size: 16px;
@@ -266,8 +272,13 @@ body {
     padding-bottom: 120px;
 }
 
+.our-team-cont {
+    padding: 32px 0
+}
+
 .our-team-heading {
     margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .gallery-items-list {
@@ -278,6 +289,7 @@ body {
 
 .gallery-items {
     background: var(--white-background-color);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .gallery-items-text {
@@ -315,11 +327,12 @@ body {
 
 
 .studio-logo-footer {
-    color: var(--light-color);
+    color: var(--light-color)
 }
 
 .logo-footer {
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-text {
@@ -351,12 +364,15 @@ body {
     border: 1px solid var(--accent-color);
     background-color: var(--light-color);
     cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 4px;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
     color: var(--white-background-color);
     background: var(--pressed-state-color);
+    border: 1px solid transparent;
 }
 
 .portfolio-cards-list {
@@ -387,5 +403,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 32px 16px 54px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
