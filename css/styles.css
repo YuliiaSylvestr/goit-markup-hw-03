@@ -380,8 +380,8 @@ body {
 }
 
 .portfolio-cards {
-    border: 1px solid var(--accent-color);
-    border-top: none;
+    /* border: 1px solid var(--accent-color);
+    border-top: none; */
     background: var(--white-background-color);
     width: 360px;
 }
@@ -402,5 +402,6 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--accent-color);
+    border-top: none;
 }
