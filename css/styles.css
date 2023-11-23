@@ -318,14 +318,8 @@ body {
 }
 
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     height: 112px;
     width: 100%;
-    /* width: 264px; */
-    /* margin-right: 0;
-    margin-left: 0; */
 }
 
 
@@ -334,8 +328,8 @@ body {
 }
 
 .logo-footer {
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -387,6 +381,7 @@ body {
 
 .portfolio-cards {
     border: 1px solid var(--accent-color);
+    border-top: none;
     background: var(--white-background-color);
     width: 360px;
 }
