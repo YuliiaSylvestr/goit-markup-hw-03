@@ -380,8 +380,6 @@ body {
 }
 
 .portfolio-cards {
-    /* border: 1px solid var(--accent-color);
-    border-top: none; */
     background: var(--white-background-color);
     width: 360px;
 }
