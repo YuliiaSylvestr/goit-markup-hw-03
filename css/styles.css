@@ -91,8 +91,6 @@ body {
 
 .header {
     background-color: var(--white-background-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid var(--accent-color);
 }
 
@@ -132,6 +130,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .header-nav-list {
@@ -228,8 +227,6 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .section-two-list-item {
@@ -272,10 +269,6 @@ body {
     background: var(--light-color);
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.our-team-cont {
-    padding: 32px 0
 }
 
 .our-team-heading {
